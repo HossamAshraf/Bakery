@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Alegreya Sans";
+}
+
+/* ====================================================================================== */
+
+/* Home Section  */
+.homeSection {
+    background-image: url('../images/drew-coffman-1872.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.homeContent {
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.homeContent h1 {
+    margin: 30px 0px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.homeContent .btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+transition: all 0.5s;
+}
+
+
+.homeContent .btn:hover{
+    background-color: white;
+    color: #000;
+}
+.homeContent .btn1{
+    background-color:#8e7754;
+    margin-right: 15px;
+}
+
+.homeContent .btn2 {
+    border: 1px white solid;
+    background-color: transparent;
+}
+
+.navbar{
+    padding:  20px 50px;
+}
+
+.logo{
+    width:50%;
+    text-align: left;
+    float: left;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.links{
+    width: 50%;
+    text-align: center;
+    float: right;
+}
+
+.links li {
+    float: left;
+    margin: 20px;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.homeSection a:hover {
+    color: #8e7754;
+
+}
+
+/* Home Section End */
+
+/* ====================================================================================== */
+
+/* About Section Start */
+.aboutSection{
+    padding: 50px 0px;
+}
+.aboutImg{
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+.aboutImg img {
+width: 80%;
+}
+.aboutInfo{
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+.aboutInfo h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.aboutInfo p{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.aboutInfo .list{
+    margin-top: 20px;
+}
+
+.listUls span {
+text-align: center;
+display: inline-block;
+width: 30px;
+height: 30px;
+color: #8e7754;
+}
+
+/* About Section End */
+
+/* ====================================================================================== */
+
+/* Location Section Start */
+.Location {
+    background-color: rgb(245, 245, 245);
+    padding: 50px 0px;
+}
+
+.locationImg {
+    width: 50%;
+    float: left;
+}
+
+.locationImg img{
+    width: 80%;
+}
+.Location .locationText {
+    width: 50% ;
+    float: left;
+    padding-top: 100px;
+    padding-left: 10%;
+}
+
+.Location h2 {
+    color: #303030;
+    font-family: "Alegreya";
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+
+.Location p {
+    color: #686868;
+    font-size: 20px;
+    font-family: "Alegreya Sans";
+    padding-bottom: 30px;
+    line-height: 1.86em;
+}
+
+
+.Location img {
+    width: 80%;
+    margin: 50px;
+}
+
+/* Location Section End */
+/* ====================================================================================== */
+/* ourBaking Section Start */
+
+
+
+.ourBakingHeader{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.ourBakingHeader h2{
+    padding: 20px 0px;
+    font-size: 32px;
+}
+
+.bakingItems .item{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 30px; 
+}
+.bakingItems .item p{
+    line-height: 2;
+}
+.bakingItems .item h3{
+    padding: 30px 0px;
+}
+.bakingItems .item img{
+    width: 100%;
+}
+
+
+/* ourBacking Section End */
+
+/* ===================================================================================== */
+
+
+/* Contact Section Start */
+
+.contacts{
+    padding: 40px 30px;
+    background-color: rgb(245, 245, 245);
+    
+}
+.contactInfo{
+    width: 50%;
+    float: left;
+    padding: 0px 20px;
+}
+.contactInfo h3{
+    font-size: 32px;
+}
+.contactInfo h5{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.contactInfo p{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 2;
+}
+.contactImg{
+    width: 50%;
+    float: left;
+}
+.contactImg img{
+    width: 100%;
+}
+
+.contactListUl span {
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: #8e7754;
+    }
+
+/* Information Section Start */
+
+.Details{
+    background-image: url("../images/contact-details-map.png");
+    background-size: 100% 100%;
+}
+.information{
+    padding: 50px;
+    background-color: #403d38;
+    color: #aeadad;
+}
+
+.information .item{
+    width: 25%;
+    float: left;
+}
+.information li{
+    line-height: 2;
+}
+.information p{
+    display: inline-block;
+    line-height: 2;
+}
+.information h4{
+    color: white;
+    margin-bottom: 30PX;
+}
+
+.informationLi span {
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    }
+
+.AboutUs{
+    padding-right: 30px;
+}
+
+/* Information Section End */
+
+/* ============================================================================= */
+/* Footer Section Start */
+.footer{
+    padding: 50px;
+    background-color: #303030;
+}
+.footerImg{
+    text-align: center; 
+}
+.footer p{
+    margin-top: 20px;
+    color: #aeadad;
+}
+
+.footerIcons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footerIcons .item {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#adaba7;
+    margin-right: 10px;
+    background-color: #403d38;
+    transition: all 0.5s;
+}
+
+.facebook:hover{
+    background-color: #0866ff;
+    color: white;
+    cursor: pointer;
+}
+
+.google:hover{
+    background-color: #DC4E41;
+    color: white;
+    cursor: pointer;
+}
+.linked:hover{
+    background-color: #007AB5;
+    color: white;
+    cursor: pointer;
+}
+.twitter:hover{
+    background-color: #1C96E8;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* Footer Section End */
